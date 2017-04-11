@@ -1,27 +1,11 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
+This is the website for our app!
 
-[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+We will create a journaling app called Everyday that allows users to record notes with text, photos, and/or audio. The basic screens of the app will be:
+1. [Login screen (if not logged in)]
+2. List of journal entries with title and one line preview of content
+3. View journal entry
+4. Add an entry
+5. Discover (public) entries by other people that the user might be interested in based on natural language processing
 
-## Getting Started
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-new-age.git`
-* Fork the repo
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/).
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-new-age/blob/gh-pages/LICENSE) license.
+Our app will automatically store the location of the user when they create the note and use it to get location data like the weather. Users will be able to create different types of records, including ‘food’, ‘dream’ and ‘note,’ with different functionalities associated with each category. 
+For example, the ‘food’ category will have different tags like ‘Breakfast’, ‘Lunch’, ‘Dinner’, ‘Snack’, or ‘Drink’, and might allow the user to save a rating. Users can also filter by the different types of records.
